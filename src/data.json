@@ -2,7 +2,7 @@
     "firstName"      :  "Himanshu", 
     "lastName"       :  "Raj",
     "bio"            :  "A highly disciplined and optimistic individual with strong professional conduct. Looking for work opportunities to enhance my learning and" ,
-    "profTitles"     :  ["Student","Qulity engineer","dummy title"],
+    "profTitles"     :  ["Electrical Engineer ","QEA Engineer","Student", "Dummy title 4"],
     "email"          :  "himanshuraj9194@gmail.com",
     "contactNo"      :  "+91 8284919907",
     "address"        :  {
@@ -13,9 +13,11 @@
                           "postalCode"   : 801110
                         },
     "socialProfiles" :  {
-                          "linkedIn"     : "linkedin.com/in/himanshu524",
-                          "gitHub"       : "thisisdummy@githubprofile.com",
-                          "instagram"    : "dummy url of instagram "
+                          "linkedIn"     : "https://www.linkedin.com/in/himanshu524",
+                          "gitHub"       : "https://github.com/himanshuraj-glitches",
+                          "instagram"    : "https://www.instagram.com/himanshu_raj_008/",
+                          "facebook"     : "#",
+                          "twitter"      : "#"
                         },
     "education"      :  [
                       {

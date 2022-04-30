@@ -49,6 +49,9 @@ a:hover{
     color: white;
     /* font-weight: bold; */
 }
+.activePage{
+    color: aqua;
+}
 .hamburgerIcon{
     display: none;
     float: right;

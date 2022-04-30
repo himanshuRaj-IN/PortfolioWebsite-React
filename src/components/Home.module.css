@@ -1,7 +1,7 @@
 .container{
     display: flex;
     justify-content: center;
-    height: 82vh;
+    height: 86vh;
     /* background-color: rgba(255, 255, 255, 0.058); */
     margin: rem 1rem 1rem 1rem;
     border-radius: 1rem;
@@ -39,6 +39,7 @@ margin-left: 9rem;
 .btn{
     width: 30%;
     height: 5vh;
+    margin-top: 1rem;
     margin-right: 0.2rem;
     border-radius: 0.2rem;
     font-size: large;

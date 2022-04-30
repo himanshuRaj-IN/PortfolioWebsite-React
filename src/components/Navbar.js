@@ -1,17 +1,21 @@
 import React from 'react'
+import { useState } from 'react'
+import { NavLink,Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
 import data from '../data.json'
 export default function Navbar() {
+    const temp = data.firstName.toUpperCase();
+    const [heading, setheading] = useState(temp);
     return (
         <div className={styles.wrapper}>
         <div className={styles.container}>
-            <div className={styles.fullname}  >{data.firstName.toUpperCase()}</div>
+            <div className={styles.fullname} >{heading}</div>
             <nav>
-                <a href="/html/">HOME</a> 
-                <a href="/css/">PROJCTS</a>  
-                <a href="/python/">EXPERIENCES</a>
-                <a href="/js/">BLOG</a>           
-                <a href="/python/">CONTACT</a>
+                <Link to="/Home">HOME</Link> 
+                <Link to="/Projects">PROJCTS</Link>  
+                <Link to="/Experiences">ABOUT</Link>
+                <Link to="/Blog">BLOG</Link>           
+                <Link to="/Contact">CONTACT</Link>
             </nav>
             <button className={styles.hamburgerIcon}>=</button>
         </div></div>
