@@ -1,0 +1,128 @@
+{ 
+    "firstName"      :  "Himanshu", 
+    "lastName"       :  "Raj",
+    "bio"            :  "A highly disciplined and optimistic individual with strong professional conduct. Looking for work opportunities to enhance my learning and" ,
+    "profTitles"     :  ["Student","Qulity engineer","dummy title"],
+    "email"          :  "himanshuraj9194@gmail.com",
+    "contactNo"      :  "+91 8284919907",
+    "address"        :  {
+                          "addressLine1" : "Lorem ipsum",
+                          "addressLine2" : "Lorem ipsum",
+                          "city"         : "Patna",
+                          "country"      : "INDIA",
+                          "postalCode"   : 801110
+                        },
+    "socialProfiles" :  {
+                          "linkedIn"     : "linkedin.com/in/himanshu524",
+                          "gitHub"       : "thisisdummy@githubprofile.com",
+                          "instagram"    : "dummy url of instagram "
+                        },
+    "education"      :  [
+                      {
+                          "courseName"    : "Bachelor in Electrical Engineering",
+                          "instituteName" : "Sant Longowal Institute of Engineering and technology",
+                          "gpa"           : "9.30 CGPA",
+                          "startDate"     : "07-2019",
+                          "endDate"       : "Present"
+                      }, 
+                      {
+                        "courseName"    : "Diploma in Electrical Engineering",
+                        "instituteName" : "Sant Longowal Institute of Engineering and technology",
+                        "gpa"           : "9.30 CGPA",
+                        "startDate"     : "07-2016",
+                        "endDate"       : "08-2019"
+                      },
+                      {
+                        "courseName"    : "Matriculation",
+                        "instituteName" : "Central Board of Secondary Education ",
+                        "gpa"           : "10 CGPA",
+                        "startDate"     : "07-2016",
+                        "endDate"       : "08-2019"
+                      }                       
+                        ],
+    "experiences"    :  [
+                      {
+                        "postion"       : "QEA intern",
+                        "orgName"       : "Cognizant fjsdldfjs sdfjsl",
+                        "shortSummary"  : "This is the sample summary of my internship progrma at this organisation",
+                        "keyPoint1"     : "This is dummy key point in this internship",
+                        "keyPoint2"     : "This is dummy key point in this internship",
+                        "keyPoint3"     : "This is dummy key point in this internship",
+                        "startDate"     : "07-2016",
+                        "endDate"       : "08-2019",
+                        "Duration"      : "52 Weeks",
+                        "levKnowldege"  : ["java", "selenium", "dummy tech", "more dummy tech"]
+                      },
+                      {
+                        "postion"       : "QEA intern",
+                        "orgName"       : "Cognizant fjsdldfjs sdfjsl",
+                        "shortSummary"  : "This is the sample summary of my internship progrma at this organisation",
+                        "keyPoint1"     : "This is dummy key point in this internship",
+                        "keyPoint2"     : "This is dummy key point in this internship",
+                        "keyPoint3"     : "This is dummy key point in this internship",
+                        "startDate"     : "07-2016",
+                        "endDate"       : "08-2019",
+                        "Duration"      : "52 Weeks",
+                        "levKnowldege"  : ["java", "selenium", "dummy tech", "more dummy tech"]
+                      },
+                      {
+                        "postion"       : "QEA intern",
+                        "orgName"       : "Cognizant fjsdldfjs sdfjsl",
+                        "shortSummary"  : "This is the sample summary of my internship progrma at this organisation",
+                        "keyPoint1"     : "This is dummy key point in this internship",
+                        "keyPoint2"     : "This is dummy key point in this internship",
+                        "keyPoint3"     : "This is dummy key point in this internship",
+                        "startDate"     : "07-2016",
+                        "endDate"       : "08-2019",
+                        "Duration"      : "52 Weeks",
+                        "levKnowldege"  : ["java", "selenium", "dummy tech", "more dummy tech"]
+                      },
+                      {
+                        "postion"       : "QEA intern",
+                        "orgName"       : "Cognizant fjsdldfjs sdfjsl",
+                        "shortSummary"  : "This is the sample summary of my internship progrma at this organisation",
+                        "keyPoint1"     : "This is dummy key point in this internship",
+                        "keyPoint2"     : "This is dummy key point in this internship",
+                        "keyPoint3"     : "This is dummy key point in this internship",
+                        "startDate"     : "07-2016",
+                        "endDate"       : "08-2019",
+                        "Duration"      : "52 Weeks",
+                        "levKnowldege"  : ["java", "selenium", "dummy tech", "more dummy tech"]
+                      }
+                      
+                        ],
+    "projects"       :  [
+                        {
+                          "projectName"  : "this is dummy prject",
+                          "briefSummary" : " thils fjsaj id dummy summary produced by the dummy djsflljfljf",
+                          "keyPoint1"     : "This is dummy key point in this project ",
+                          "keyPoint2"     : "This is dummy key point in this project ",
+                          "keyPoint3"     : "This is dummy key point in this project ",
+                          "startDate"     : "07-2016",
+                          "endDate"       : "08-2019",
+                          "utilized"      : ["HTML","CSS","javascripjt"]
+                        },
+                        {
+                          "projectName"  : "this is dummy prject",
+                          "briefSummary" : " thils fjsaj id dummy summary produced by the dummy djsflljfljf",
+                          "keyPoint1"     : "This is dummy key point in this project ",
+                          "keyPoint2"     : "This is dummy key point in this project ",
+                          "keyPoint3"     : "This is dummy key point in this project ",
+                          "startDate"     : "07-2016",
+                          "endDate"       : "08-2019",
+                          "utilized"      : ["HTML","CSS","javascripjt"]
+                        },
+                        {
+                          "projectName"  : "this is dummy prject",
+                          "briefSummary" : " thils fjsaj id dummy summary produced by the dummy djsflljfljf",
+                          "keyPoint1"     : "This is dummy key point in this project ",
+                          "keyPoint2"     : "This is dummy key point in this project ",
+                          "keyPoint3"     : "This is dummy key point in this project ",
+                          "startDate"     : "07-2016",
+                          "endDate"       : "08-2019",
+                          "utilized"      : ["HTML","CSS","javascripjt"]
+                        }
+                        ],
+    "techSkills"     :  ["skill1","Skill2","Skill3","Skills4"],
+    "softSkills"     :  ["skill1","Skill2","Skill3","Skills4"]
+  }
