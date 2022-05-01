@@ -4,13 +4,13 @@ import java from './img/java.png';
 export default function ProjectContent(props) {
   return (
     <div className={styles.container}>
-    <h1> &#9778; IoT Based Smart Parking </h1>
-    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni architecto quia voluptate facilis, rem eligendi eum voluptatem natus exercitationem tenetur voluptatibus, vitae assumenda perferendis minima fuga quidem sed. Perspiciatis facere doloremque obcaecati non dolorem quos optio maxime inventore placeat voluptatum ullam eaque at, laborum similique officiis alias cupiditate, quibusdam ducimus?</h3>
-    <h4>&#9737; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, laborum.</h4>
-    <h4>&#9737; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, laborum.</h4>
-    <h4>&#9737; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, laborum.</h4>
+    <h1> &#9778; {props.projectName}</h1>
+    <h3>{props.summary}</h3>
+    <h4>&#9737; {props.kp1}</h4>
+    <h4>&#9737; {props.kp2}</h4>
+    <h4>&#9737; {props.kp3}</h4>
     <div className={styles.techImg}>
-        <img src={java} alt="JAVA" />
+        <img src={java} alt="Java" />
         <img src={java} alt="JAVA" />
         <img src={java} alt="JAVA" />
         <img src={java} alt="JAVA" />

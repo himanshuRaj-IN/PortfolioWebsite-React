@@ -4,8 +4,9 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import bg from './bg1.jpg';
 import Footer from './components/Footer/Footer';
-import bg2 from './bg2.png';
+import data from './data.json'
 import { Route, Routes } from 'react-router-dom';
+import About from './components/AboutPage/About';
 function App() {
   return (
     <div className="home" style={{ backgroundImage: `url(${bg})` }}>
@@ -13,7 +14,8 @@ function App() {
       <Routes>
         <Route path="/"element={<Home />}></Route>
         <Route path="/Home"element={<Home />}></Route>
-        <Route path="/Projects" element={<Projects />}></Route>
+        <Route path="/Projects" element={<Projects projArr={data.projects}/>}></Route>
+        <Route path="/About" element={<About />}></Route>
       </Routes>
       <>
         <div className="ani1"></div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { NavLink,Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
 import data from '../data.json'
 export default function Navbar() {
@@ -13,7 +13,7 @@ export default function Navbar() {
             <nav>
                 <Link to="/Home">HOME</Link> 
                 <Link to="/Projects">PROJCTS</Link>  
-                <Link to="/Experiences">ABOUT</Link>
+                <Link to="/About">ABOUT</Link>
                 <Link to="/Blog">BLOG</Link>           
                 <Link to="/Contact">CONTACT</Link>
             </nav>

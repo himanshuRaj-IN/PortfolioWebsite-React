@@ -1,0 +1,26 @@
+.experianceCard{
+    height: 70vh;
+    width: 70%;
+    overflow: auto;
+    margin: 2rem 1rem 1rem 3rem;
+    background-color: #ffffff0d;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 10px #892be25a;
+    
+}
+.experianceCard::-webkit-scrollbar { 
+    display: none;
+}
+.experienceHeading{
+    position: sticky;
+    top:0;
+    color: rgb(6, 47, 83);
+    margin:1rem 1rem 1rem 1rem;
+    background-color: #2f2f2f;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 10px #8a2be2;
+}
+.experienceHeading h1{
+    margin-left: 3rem;
+    
+}

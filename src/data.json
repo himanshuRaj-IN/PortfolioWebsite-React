@@ -1,7 +1,7 @@
 { 
     "firstName"      :  "Himanshu", 
     "lastName"       :  "Raj",
-    "bio"            :  "A highly disciplined and optimistic individual with strong professional conduct. Looking for work opportunities to enhance my learning and" ,
+    "bio"            :  "A highly disciplined and optimistic individual with strong professional conduct. Looking for work opportunities to enhance my learning and   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, cumque eum, numquam sapiente deleniti dolorum nulla assumenda reiciendis ducimus magnam laboriosam aliquam aperiam explicabo velit laudantium tempora error ex hic enim quam. Cupiditate maiores sit quis dicta rerum ullam animi?",
     "profTitles"     :  ["Electrical Engineer ","QEA Engineer","Student", "Dummy title 4"],
     "email"          :  "himanshuraj9194@gmail.com",
     "contactNo"      :  "+91 8284919907",

@@ -1,0 +1,67 @@
+.wrapperExp{
+   overflow: auto;
+    margin: 1rem 1rem 0rem 1rem;
+    background-color: rgba(232, 18, 18, 0.452);
+    border-radius: 0.5rem;
+}
+.experianceItem{
+    display: flex;
+    overflow: auto;
+    margin: 1rem 1rem 1rem 1rem;;
+    background-color: #ffffff1e;
+    border-radius: .5rem;
+    box-shadow: 0px 5px 10px #ffffff48;
+}
+.organisationLogo{
+    height: 70%;
+    width:  5%;
+    margin: inherit;
+    border-radius: 1rem;
+    border: solid white;
+}
+.organisationInfo{
+    margin: none;
+    color: aliceblue;
+    min-width: 50%;
+}
+.orgPosition{
+  font-size: xx-large;
+  font-weight:1000;
+}
+.orgName{
+  font-size: larger;
+  font-weight: 800;
+}
+.orgInfo{
+    font-size: large;
+
+}
+.expDate{
+  margin-left: auto;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  float:right;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: 600;
+}
+.btn{
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  border-radius: 0.5rem;
+}
+.btn:hover{
+  background-color: #FFD700;
+  color: aliceblue;
+}
+.extendedInfo{ 
+  margin-left: 4rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  color: aliceblue;
+  list-style-type:  none;
+  background: rgba(184, 181, 181, 0.223);
+  box-shadow: 0px 2px 5px #ffd90044;
+}
