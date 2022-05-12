@@ -1,0 +1,34 @@
+.container{
+ display: block;
+ color: white;
+ height: 76vh;
+ /* border: solid white; */
+ padding: 4rem 2rem 2rem 2rem;
+ width: 45%;
+}
+.inputboxLine1{
+    margin: 1rem 1rem 1rem 3rem;
+    border-radius: 0.4rem;
+    font-size: large;
+}
+.inputboxLine1 input{
+    font-size: larger;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+.inputboxLine2{
+    display: block;
+    margin: 1rem 1rem 1rem 3rem;
+    border-radius: 0.4rem;
+    font-size: large;
+}
+.inputboxLine2 input{
+    font-size: larger;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+.inputboxLine2 textarea{
+    border-radius: 0.5rem;
+    width: 90%;
+    height: 30vh;
+}

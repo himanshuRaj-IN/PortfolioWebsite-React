@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import data from './data.json'
 import { Route, Routes } from 'react-router-dom';
 import About from './components/AboutPage/About';
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="home" style={{ backgroundImage: `url(${bg})` }}>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Home"element={<Home />}></Route>
         <Route path="/Projects" element={<Projects projArr={data.projects}/>}></Route>
         <Route path="/About" element={<About />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
       </Routes>
       <>
         <div className="ani1"></div>
